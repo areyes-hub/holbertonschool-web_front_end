@@ -42,19 +42,19 @@ body {
     line-height: var(--line-height-base);
 }
 
-a::any-link {
+a:any-link {
     text-decoration: none;
 }
 
-a::visited {
+a:visited {
     font-style: italic;
 }
 
-a::hover {
+a:hover {
     text-decoration: underline;
 }
 
-a::active {
+a:active {
     background-color: var(--color-light-grey);
 }
 
