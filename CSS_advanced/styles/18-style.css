@@ -680,8 +680,8 @@ h6 {
 
 .nav .nav-link {
     display: block;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 }
 
 .nav .nav-link:hover {
