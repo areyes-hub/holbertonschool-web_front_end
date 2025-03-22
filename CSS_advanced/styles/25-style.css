@@ -607,7 +607,7 @@ template {
     /* button styling */
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
-    --button-border: 0.2rem var(--color-primary);
+    --button-border: 0.2rem solid var(--color-primary);
     --button-color: var(--color-black);
     --button-text-decoration: none;
     --button-font-size: var(--font-size-large);
@@ -772,7 +772,7 @@ ul.row {
     margin: var(--section-tagline-margin);
 }
 
-[data-section-theme=“dark”] {
+[data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
@@ -796,7 +796,7 @@ ul.row {
 
 .card-services a {
     display: block;
-    padding: calc(var(--section-body-padding) * .2);
+    padding: 2rem;
     background-color: var(--color-light-grey);
 }
 
