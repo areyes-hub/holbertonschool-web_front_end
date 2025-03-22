@@ -694,7 +694,7 @@ ul.row {
     text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -703,13 +703,13 @@ ul.row {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
